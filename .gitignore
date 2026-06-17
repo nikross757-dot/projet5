@@ -4,8 +4,9 @@ venv/
 env/
 ENV/
 
-# --- Base de données SQLite (recréée via migrate + seed.py) ---
-db.sqlite3
+# --- Base de données SQLite ---
+# db.sqlite3 est volontairement INCLUS dans le dépôt pour que le projet
+# fonctionne dès le clonage (données démo + compte admin déjà présents).
 db.sqlite3-journal
 
 # --- Cache et fichiers compilés Python ---
