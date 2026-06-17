@@ -21,7 +21,8 @@ local_settings.py
 media/
 staticfiles/
 
-# --- Éditeurs / IDE ---
+# --- Éditeurs / IDE / outils ---
+.claude/
 .vscode/
 .idea/
 *.swp
